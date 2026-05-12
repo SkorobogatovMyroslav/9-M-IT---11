@@ -13,7 +13,7 @@ namespace _1._2
     public partial class Form1 : Form
     {
 
-        bool turn = true; // true = X turn; false = O turn
+        bool turn = true;
         int turn_count = 0;
 
         public Form1()
@@ -24,7 +24,6 @@ namespace _1._2
         private void btnRun_MouseEnter(object sender, EventArgs e)
         {
             Random rnd = new Random();
-            // Вираховуємо нові координати так, щоб кнопка не виходила за межі свого GroupBox
             int x = rnd.Next(0, groupBox1.Width - btnRun.Width);
             int y = rnd.Next(0, groupBox1.Height - btnRun.Height);
 
@@ -46,7 +45,7 @@ namespace _1._2
                 b.Text = "O";
 
             turn = !turn;
-            b.Enabled = false; // Disable button after click
+            b.Enabled = false;
             turn_count++;
 
             CheckForWinner();
@@ -71,7 +70,7 @@ namespace _1._2
 
             if (there_is_a_winner)
             {
-                string winner = turn ? "O" : "X"; // The person who just moved wins
+                string winner = turn ? "O" : "X";
                 MessageBox.Show(winner + " Wins!");
                 ResetGame();
             }
