@@ -1,0 +1,10 @@
+C:\Users\skoro\source\repos\МЕМИ\МЕМИ\obj\Debug\МЕМИ.csproj.AssemblyReference.cache
+C:\Users\skoro\source\repos\МЕМИ\МЕМИ\obj\Debug\МЕМИ.Properties.Resources.resources
+C:\Users\skoro\source\repos\МЕМИ\МЕМИ\obj\Debug\МЕМИ.csproj.GenerateResource.cache
+C:\Users\skoro\source\repos\МЕМИ\МЕМИ\obj\Debug\МЕМИ.csproj.CoreCompileInputs.cache
+C:\Users\skoro\source\repos\МЕМИ\МЕМИ\bin\Debug\МЕМИ.exe.config
+C:\Users\skoro\source\repos\МЕМИ\МЕМИ\bin\Debug\МЕМИ.exe
+C:\Users\skoro\source\repos\МЕМИ\МЕМИ\bin\Debug\МЕМИ.pdb
+C:\Users\skoro\source\repos\МЕМИ\МЕМИ\obj\Debug\МЕМИ.Form1.resources
+C:\Users\skoro\source\repos\МЕМИ\МЕМИ\obj\Debug\МЕМИ.exe
+C:\Users\skoro\source\repos\МЕМИ\МЕМИ\obj\Debug\МЕМИ.pdb
