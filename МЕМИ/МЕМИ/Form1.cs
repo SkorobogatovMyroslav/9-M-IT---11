@@ -7,7 +7,7 @@ namespace МЕМИ
 {
     public partial class Form1 : Form
     {
-        // Вказуємо шлях до вашої папки з мемами
+       
         private string folderPath = @"C:\Users\skoro\Desktop\Myroslav\Инфа 9 клас\інфа\Меме";
         private string[] memeFiles;
         private int currentIndex = 0;
@@ -64,10 +64,9 @@ namespace МЕМИ
             {
                 if (Directory.Exists(folderPath))
                 {
-                    // Програма сама знаходить усі файли .jpg та .png у папці
+                    
                     memeFiles = Directory.GetFiles(folderPath, "*.*", SearchOption.TopDirectoryOnly);
 
-                    // Залишаємо тільки картинки
                     memeFiles = Array.FindAll(memeFiles, f => f.EndsWith(".jpg") || f.EndsWith(".png") || f.EndsWith(".jpeg"));
 
                     if (memeFiles.Length > 0)
@@ -94,10 +93,10 @@ namespace МЕМИ
         {
             try
             {
-                // Звільняємо пам'ять від попередньої картинки, щоб не було зависань
+                
                 if (pictureBox.Image != null) pictureBox.Image.Dispose();
 
-                // Завантажуємо файл з комп'ютера
+                
                 pictureBox.Image = Image.FromFile(memeFiles[currentIndex]);
             }
             catch
